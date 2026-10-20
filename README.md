@@ -1,4 +1,4 @@
-# Project Largo · Alpha 1
+# Project Largo
 
 **One stop to make Gnome truly yours.**
 
