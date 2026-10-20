@@ -1,0 +1,292 @@
+/* Oma palette links. Zen owns the gradient and browser UI design.
+ * Native workspace custom colors reference these three variables in order.
+ * Picker swatches: fourth (primary), second (surface_variant), first (surface).
+ */
+:root {
+  --oma-zen-gradient-1: {{colors.primary.default.hex}};
+  --oma-zen-gradient-2: {{colors.surface_variant.default.hex}};
+  --oma-zen-gradient-3: {{colors.surface.default.hex}};
+  --oma-zen-ui-text: {{colors.on_surface.default.hex}};
+  --toolbox-textcolor: var(--oma-zen-ui-text) !important;
+  --lwt-text-color: var(--oma-zen-ui-text) !important;
+  --arrowpanel-color: var(--oma-zen-ui-text) !important;
+}
+
+/* Zen sets a separate inline foreground on each workspace. */
+zen-workspace {
+  --toolbox-textcolor: var(--oma-zen-ui-text) !important;
+}
+
+/* These native widgets specify their own text color rather than inheriting it. */
+:root, #navigator-toolbox, #nav-bar, #urlbar-input, #searchbar,
+.tab-label, .zen-current-workspace-indicator-name {
+  color: var(--oma-zen-ui-text) !important;
+}
+
+/* Native browser popups own their own foreground variables. */
+panel, menupopup, tooltip {
+  --panel-color: var(--oma-zen-ui-text) !important;
+  --menu-color: var(--oma-zen-ui-text) !important;
+  color: var(--oma-zen-ui-text) !important;
+}
+
+/* Project Largo: the Ctrl+T/expanded URL popup has independent native colors.
+ * Scope palette roles here so Zen retains its workspace gradient and geometry.
+ */
+#urlbar {
+  --largo-urlbar-surface: {{colors.surface.default.hex}};
+  --largo-urlbar-primary: {{colors.primary.default.hex}};
+  --largo-urlbar-on-primary: {{colors.on_primary.default.hex}};
+  --largo-urlbar-hover: {{colors.hover.default.hex}};
+  --largo-urlbar-outline: {{colors.outline.default.hex}};
+  --largo-urlbar-secondary: {{colors.secondary.default.hex}};
+  --zen-primary-color: var(--largo-urlbar-primary) !important;
+  --zen-accent-button-background: var(--largo-urlbar-primary) !important;
+  --urlbarview-separator-color: var(--largo-urlbar-outline) !important;
+  --urlbarview-background-color-hover: var(--largo-urlbar-hover) !important;
+  --urlbarView-highlight-background: var(--largo-urlbar-primary) !important;
+  --urlbarView-highlight-color: var(--largo-urlbar-on-primary) !important;
+  --toolbar-field-color: var(--oma-zen-ui-text) !important;
+  --toolbar-field-focus-color: var(--oma-zen-ui-text) !important;
+  color: var(--oma-zen-ui-text) !important;
+}
+
+#urlbar[breakout-extend] .urlbar-background {
+  background-color: var(--largo-urlbar-surface) !important;
+  outline-color: var(--largo-urlbar-outline) !important;
+}
+
+#urlbar .urlbarView-row {
+  color: var(--oma-zen-ui-text) !important;
+}
+
+#urlbar .urlbarView-row:not([selected]):hover {
+  background-color: var(--largo-urlbar-hover) !important;
+}
+
+#urlbar .urlbarView-url {
+  color: var(--largo-urlbar-secondary) !important;
+}
+
+#urlbar .urlbarView-row[selected] {
+  --zen-selected-bg: var(--largo-urlbar-primary) !important;
+  --zen-selected-color: var(--largo-urlbar-on-primary) !important;
+  background-color: var(--largo-urlbar-primary) !important;
+  color: var(--largo-urlbar-on-primary) !important;
+}
+
+#urlbar .urlbarView-row[selected] *,
+#urlbar .urlbarView-row[selected] .urlbarView-title-separator::before {
+  color: var(--largo-urlbar-on-primary) !important;
+}
+
+#urlbar #urlbar-label-box,
+#urlbar #urlbar-search-mode-indicator {
+  background-color: var(--largo-urlbar-primary) !important;
+  color: var(--largo-urlbar-on-primary) !important;
+}
+
+/* Native common prompts (including Ctrl+Q) use a separate chrome document.
+ * Palette-link their surface and controls without changing dialog behavior.
+ */
+.dialogBox:has(.dialogFrame) {
+  background-color: {{colors.surface.default.hex}} !important;
+  border-color: {{colors.outline.default.hex}} !important;
+  outline-color: {{colors.outline.default.hex}} !important;
+}
+
+@-moz-document url("chrome://global/content/commonDialog.xhtml") {
+  #commonDialogWindow {
+    --largo-dialog-primary: {{colors.primary.default.hex}};
+    --largo-dialog-on-primary: {{colors.on_primary.default.hex}};
+    --largo-dialog-button: {{colors.surface_variant.default.hex}};
+    --largo-dialog-hover: {{colors.hover.default.hex}};
+    --largo-dialog-text: {{colors.on_surface.default.hex}};
+    --text-color: var(--largo-dialog-text) !important;
+    --text-color-deemphasized: var(--largo-dialog-text) !important;
+    --color-accent-primary: var(--largo-dialog-primary) !important;
+    --color-accent-primary-hover: var(--largo-dialog-primary) !important;
+    --color-accent-primary-active: var(--largo-dialog-primary) !important;
+    --color-accent-primary-selected: var(--largo-dialog-on-primary) !important;
+    --focus-outline-color: var(--largo-dialog-primary) !important;
+    background-color: {{colors.surface.default.hex}} !important;
+    color: var(--largo-dialog-text) !important;
+    color-scheme: dark;
+    accent-color: var(--largo-dialog-primary) !important;
+  }
+
+  #commonDialog::part(dialog-button), button[dlgtype] {
+    --button-background-color: var(--largo-dialog-button) !important;
+    --button-background-color-hover: var(--largo-dialog-hover) !important;
+    --button-background-color-active: var(--largo-dialog-hover) !important;
+    --button-text-color: var(--largo-dialog-text) !important;
+    --button-text-color-hover: var(--largo-dialog-text) !important;
+    --button-text-color-active: var(--largo-dialog-text) !important;
+    --button-background-color-primary: var(--largo-dialog-primary) !important;
+    --button-background-color-primary-hover: var(--largo-dialog-primary) !important;
+    --button-background-color-primary-active: var(--largo-dialog-primary) !important;
+    --button-text-color-primary: var(--largo-dialog-on-primary) !important;
+    --button-text-color-primary-hover: var(--largo-dialog-on-primary) !important;
+    --button-text-color-primary-active: var(--largo-dialog-on-primary) !important;
+  }
+
+  #commonDialog, #checkbox, #checkbox .checkbox-label {
+    color: var(--largo-dialog-text) !important;
+    accent-color: var(--largo-dialog-primary) !important;
+  }
+}
+
+/* Shared native UI tokens. No browser-background or workspace-gradient override.
+ * Keep the same role values in the explicitly scoped userContent adapter.
+ */
+:root {
+  --largo-ui-surface: {{colors.surface.default.hex}};
+  --largo-ui-text: {{colors.on_surface.default.hex}};
+  --largo-ui-button: {{colors.surface_variant.default.hex}};
+  --largo-ui-hover: {{colors.hover.default.hex}};
+  --largo-ui-on-hover: {{colors.on_hover.default.hex}};
+  --largo-ui-primary: {{colors.primary.default.hex}};
+  --largo-ui-on-primary: {{colors.on_primary.default.hex}};
+  --largo-ui-outline: {{colors.outline.default.hex}};
+  --largo-ui-error: {{colors.error.default.hex}};
+  --largo-ui-on-error: {{colors.on_error.default.hex}};
+  --background-color-canvas: var(--largo-ui-surface) !important;
+  --background-color-box: var(--largo-ui-button) !important;
+  --background-color-box-info: var(--largo-ui-button) !important;
+  --background-color-list-item-hover: var(--largo-ui-hover) !important;
+  --text-color: var(--largo-ui-text) !important;
+  --text-color-deemphasized: {{colors.on_surface_variant.default.hex}} !important;
+  --text-color-list-item-hover: var(--largo-ui-on-hover) !important;
+  --text-color-accent-primary-selected: var(--largo-ui-on-primary) !important;
+  --color-accent-primary: var(--largo-ui-primary) !important;
+  --color-accent-primary-hover: var(--largo-ui-primary) !important;
+  --color-accent-primary-active: var(--largo-ui-primary) !important;
+  --color-accent-primary-selected: var(--largo-ui-primary) !important;
+  --focus-outline-color: var(--largo-ui-primary) !important;
+  --border-color: var(--largo-ui-outline) !important;
+  --border-color-deemphasized: var(--largo-ui-outline) !important;
+  --border-color-interactive: var(--largo-ui-outline) !important;
+  --border-color-interactive-hover: var(--largo-ui-primary) !important;
+  --button-background-color: var(--largo-ui-button) !important;
+  --button-background-color-hover: var(--largo-ui-hover) !important;
+  --button-background-color-active: var(--largo-ui-hover) !important;
+  --button-text-color: var(--largo-ui-text) !important;
+  --button-text-color-hover: var(--largo-ui-on-hover) !important;
+  --button-text-color-active: var(--largo-ui-on-hover) !important;
+  --button-background-color-primary: var(--largo-ui-primary) !important;
+  --button-background-color-primary-hover: var(--largo-ui-primary) !important;
+  --button-background-color-primary-active: var(--largo-ui-primary) !important;
+  --button-text-color-primary: var(--largo-ui-on-primary) !important;
+  --button-text-color-primary-hover: var(--largo-ui-on-primary) !important;
+  --button-text-color-primary-active: var(--largo-ui-on-primary) !important;
+  --button-background-color-destructive: var(--largo-ui-error) !important;
+  --button-background-color-destructive-hover: var(--largo-ui-error) !important;
+  --button-background-color-destructive-active: var(--largo-ui-error) !important;
+  --button-text-color-destructive: var(--largo-ui-on-error) !important;
+  --button-text-color-destructive-hover: var(--largo-ui-on-error) !important;
+  --button-text-color-destructive-active: var(--largo-ui-on-error) !important;
+  --input-text-background-color: var(--largo-ui-button) !important;
+  --input-text-color: var(--largo-ui-text) !important;
+  --input-text-border-color: var(--largo-ui-outline) !important;
+  --input-border-color: var(--largo-ui-outline) !important;
+  --link-color: {{colors.secondary.default.hex}} !important;
+  --link-color-hover: var(--largo-ui-primary) !important;
+  --link-color-active: var(--largo-ui-primary) !important;
+  --arrowpanel-background: var(--largo-ui-surface) !important;
+}
+
+panel, menupopup, tooltip {
+  --panel-background-color: var(--largo-ui-surface) !important;
+  --panel-background-color-dimmed: var(--largo-ui-button) !important;
+  --panel-text-color: var(--largo-ui-text) !important;
+  --panel-border-color: var(--largo-ui-outline) !important;
+  --panel-separator-color: var(--largo-ui-outline) !important;
+  --zen-accent-button-background: var(--largo-ui-primary) !important;
+  --zen-accent-button-color: var(--largo-ui-on-primary) !important;
+  --button-background-color-menu-hover: var(--largo-ui-hover) !important;
+  --button-background-color-menu-active: var(--largo-ui-primary) !important;
+  --button-text-color-menu: var(--largo-ui-text) !important;
+  --button-text-color-menu-hover: var(--largo-ui-on-hover) !important;
+  --button-text-color-menu-active: var(--largo-ui-on-primary) !important;
+  color-scheme: dark !important;
+  accent-color: var(--largo-ui-primary) !important;
+}
+
+/* User sheets also apply inside the native dialog button shadow tree. */
+button[dlgtype] {
+  --button-background-color: var(--largo-ui-button) !important;
+  --button-background-color-hover: var(--largo-ui-hover) !important;
+  --button-background-color-active: var(--largo-ui-hover) !important;
+  --button-text-color: var(--largo-ui-text) !important;
+  --button-text-color-hover: var(--largo-ui-on-hover) !important;
+  --button-text-color-active: var(--largo-ui-on-hover) !important;
+  --button-background-color-primary: var(--largo-ui-primary) !important;
+  --button-background-color-primary-hover: var(--largo-ui-primary) !important;
+  --button-background-color-primary-active: var(--largo-ui-primary) !important;
+  --button-text-color-primary: var(--largo-ui-on-primary) !important;
+  --button-text-color-primary-hover: var(--largo-ui-on-primary) !important;
+  --button-text-color-primary-active: var(--largo-ui-on-primary) !important;
+}
+
+tooltip {
+  background-color: var(--largo-ui-surface) !important;
+  border-color: var(--largo-ui-outline) !important;
+}
+
+menupopup :is(menu, menuitem)[_moz-menuactive="true"]:not([disabled="true"]) {
+  background-color: var(--largo-ui-primary) !important;
+  color: var(--largo-ui-on-primary) !important;
+}
+
+#zenEditBookmarkPanelFaviconContainer {
+  background-color: var(--largo-ui-button) !important;
+  border-color: var(--largo-ui-outline) !important;
+}
+
+/* Browser-owned subdialogs; website documents are not selected. */
+@-moz-document url-prefix("chrome://browser/content/preferences/dialogs/"),
+  url("chrome://browser/content/sanitize_v2.xhtml"),
+  url("chrome://browser/content/places/bookmarkProperties.xhtml"),
+  url("chrome://browser/content/places/clearDataForSite.xhtml"),
+  url("chrome://global/content/commonDialog.xhtml"),
+  url("chrome://global/content/selectDialog.xhtml"),
+  url("chrome://global/content/print.html") {
+  :root, body {
+    background-color: var(--largo-ui-surface) !important;
+    color: var(--largo-ui-text) !important;
+    color-scheme: dark !important;
+    accent-color: var(--largo-ui-primary) !important;
+    --zen-primary-color: var(--largo-ui-primary) !important;
+    --zen-accent-button-background: var(--largo-ui-primary) !important;
+  }
+
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]),
+  textarea, menulist, select, richlistbox, tree {
+    background-color: var(--largo-ui-button) !important;
+    color: var(--largo-ui-text) !important;
+    border-color: var(--largo-ui-outline) !important;
+  }
+
+  richlistitem[selected], option:checked {
+    background-color: var(--largo-ui-primary) !important;
+    color: var(--largo-ui-on-primary) !important;
+  }
+
+  treechildren::-moz-tree-row(selected) {
+    background-color: var(--largo-ui-primary) !important;
+  }
+
+  treechildren::-moz-tree-cell-text(selected) {
+    color: var(--largo-ui-on-primary) !important;
+  }
+
+  ::selection {
+    background-color: var(--largo-ui-primary) !important;
+    color: var(--largo-ui-on-primary) !important;
+  }
+}
+
+.previewStack {
+  background-color: var(--largo-ui-surface) !important;
+  color: var(--largo-ui-text) !important;
+}

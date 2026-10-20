@@ -1,0 +1,17 @@
+name: Source checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install isolated test dependencies
+        run: sudo apt-get update && sudo apt-get install -y python3-gi gsettings-desktop-schemas liblz4-1
+      - name: Isolated package and recovery tests
+        run: /usr/bin/python3 -m unittest discover -s tests -v
+      - name: Build and check the Alpha source kit
+        run: |
+          /usr/bin/python3 tools/build-alpha.py
+          /usr/bin/python3 tools/check-alpha.py dist/project-largo-alpha-$(tr -d '\n' < VERSION).tar.gz

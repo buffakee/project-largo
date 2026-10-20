@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Project Largo
+Comment=Coordinated GNOME and application colors
+Exec="@HOME@/.local/bin/project-largo" pick
+Icon=preferences-desktop-theme
+Terminal=false
+Categories=Settings;DesktopSettings;
+OnlyShowIn=GNOME;
+StartupNotify=true
+StartupWMClass=io.github.buff.OmaThemes

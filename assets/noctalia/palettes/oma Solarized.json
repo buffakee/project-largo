@@ -1,0 +1,50 @@
+{
+  "_source": "https://github.com/Gazler/omarchy-solarized-theme/tree/236840f05449f1becfafd1f5995c2c5c9c79ca70",
+  "_notes": "Dark role-contract v1 (2026-10-13). Primary=focus/actions/strong selection; secondary/tertiary=supporting accents; surface/onSurface=body and icons; surfaceVariant=panel; hover/onHover=hover. Red/error, ANSI green/success and ANSI yellow/warning are intentional shared status roles. See ~/Work/theme-role-rebuild-20261013/README.md. No light variant.",
+  "dark": {
+    "mPrimary": "#479cd9",
+    "mOnPrimary": "#002b36",
+    "mSecondary": "#33a59c",
+    "mOnSecondary": "#002b36",
+    "mTertiary": "#e070a6",
+    "mOnTertiary": "#002b36",
+    "mError": "#e7726f",
+    "mOnError": "#002b36",
+    "mSurface": "#002b36",
+    "mOnSurface": "#a8b4b5",
+    "mSurfaceVariant": "#0a333e",
+    "mOnSurfaceVariant": "#8fa0a3",
+    "mOutline": "#5a757b",
+    "mShadow": "#00161b",
+    "mHover": "#123a44",
+    "mOnHover": "#a8b4b5",
+    "terminal": {
+      "normal": {
+        "black": "#073642",
+        "red": "#e7726f",
+        "green": "#8c9f0f",
+        "yellow": "#b9900f",
+        "blue": "#3794d6",
+        "magenta": "#dd629e",
+        "cyan": "#2aa198",
+        "white": "#eee8d5"
+      },
+      "bright": {
+        "black": "#002b36",
+        "red": "#da7d57",
+        "green": "#91a32d",
+        "yellow": "#b6962d",
+        "blue": "#839496",
+        "magenta": "#8488cd",
+        "cyan": "#93a1a1",
+        "white": "#fdf6e3"
+      },
+      "background": "#002b36",
+      "foreground": "#a8b4b5",
+      "cursor": "#479cd9",
+      "cursorText": "#002b36",
+      "selectionBg": "#479cd9",
+      "selectionFg": "#002b36"
+    }
+  }
+}

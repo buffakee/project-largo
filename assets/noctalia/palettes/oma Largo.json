@@ -1,0 +1,51 @@
+{
+  "_source": "Original Project Largo palette inspired by forest greens, cream, teal and pink shells.",
+  "_gnome_panel_background_role": "shadow",
+  "_notes": "Original Largo palette, 2026-10-19. Wallpaper-inspired forest shadows, sage foliage, warm cream, weathered teal and pink shells; adjusted for readable UI contrast. Dark role-contract v1: primary=focus/actions/strong selection, secondary/tertiary=supporting accents, surface/onSurface=body/icons, surfaceVariant=panels, hover/onHover=hover. Error/ANSI red, success/ANSI green and warning/ANSI yellow share status roles. No light variant.",
+  "dark": {
+    "mPrimary": "#91ad85",
+    "mOnPrimary": "#202724",
+    "mSecondary": "#86b4b0",
+    "mOnSecondary": "#202724",
+    "mTertiary": "#d69aaa",
+    "mOnTertiary": "#202724",
+    "mError": "#df8a88",
+    "mOnError": "#202724",
+    "mSurface": "#202724",
+    "mOnSurface": "#ede0b7",
+    "mSurfaceVariant": "#2c3430",
+    "mOnSurfaceVariant": "#b6b8a4",
+    "mOutline": "#7e897d",
+    "mShadow": "#101612",
+    "mHover": "#39423a",
+    "mOnHover": "#ede0b7",
+    "terminal": {
+      "normal": {
+        "black": "#202724",
+        "red": "#df8a88",
+        "green": "#91ad85",
+        "yellow": "#d9ba78",
+        "blue": "#8da9b6",
+        "magenta": "#d69aaa",
+        "cyan": "#86b4b0",
+        "white": "#ede0b7"
+      },
+      "bright": {
+        "black": "#697568",
+        "red": "#efa19c",
+        "green": "#adc597",
+        "yellow": "#edcf92",
+        "blue": "#a7c5cf",
+        "magenta": "#edb2c1",
+        "cyan": "#a0cfca",
+        "white": "#faf0d5"
+      },
+      "background": "#202724",
+      "foreground": "#ede0b7",
+      "cursor": "#91ad85",
+      "cursorText": "#202724",
+      "selectionBg": "#91ad85",
+      "selectionFg": "#202724"
+    }
+  }
+}

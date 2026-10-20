@@ -1,0 +1,267 @@
+[
+  {
+    "file": "src/engine.py",
+    "source": "~/.config/oma-theme/engine.py",
+    "baseline_sha256": "a0e6d8f754e4231219d7f36b0044e16ba61bb86255f00cc3d3bc62c9dde9ee2a"
+  },
+  {
+    "file": "src/picker.py",
+    "source": "~/.config/oma-theme/picker.py",
+    "baseline_sha256": "af32c8bc5d0fa939d52f1eefdfd59d4454caa8119a11d24675d4e667d0d4abe9"
+  },
+  {
+    "file": "src/vanilla.py",
+    "source": "~/.config/oma-theme/vanilla.py",
+    "baseline_sha256": "88440b88d39bc0e7657640434fc73cb37f30cdea8eb446293e25f1cb858d90c0"
+  },
+  {
+    "file": "src/wallpaper.py",
+    "source": "~/.config/oma-theme/wallpaper.py",
+    "baseline_sha256": "a7c9327a48364d260ec33b5df99810161e0a1a6f21e7b48d377e3f63f8449626"
+  },
+  {
+    "file": "src/validate-css.py",
+    "source": "~/.config/oma-theme/validate-css.py",
+    "baseline_sha256": "7fcd0250dcf1bfa8f596e2e24994a8afc1e8f86f26a052f10d0c94aca5754a0e"
+  },
+  {
+    "file": "src/zotero-pdf-bootstrap.js",
+    "source": "~/.config/oma-theme/zotero-pdf-bootstrap.js",
+    "baseline_sha256": "e42b1a299d34e891c184f670203365fa917767218a339d7b342f202fb9c70f26"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Catppuccin.json",
+    "source": "~/.config/noctalia/palettes/oma Catppuccin.json",
+    "baseline_sha256": "64810da3d2f8a824edea1410cb06e4700da77ec52b44a5246e7335a39b19599a"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Everforest.json",
+    "source": "~/.config/noctalia/palettes/oma Everforest.json",
+    "baseline_sha256": "f1cd168c70bf1402052ccbac16daa2c37d7ad225697d3f792f321f735c2f9cdd"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Gruvbox.json",
+    "source": "~/.config/noctalia/palettes/oma Gruvbox.json",
+    "baseline_sha256": "7f41cb2298891f29607b09f7b4b78617aa0dac3ec0a5ca467e845bcc4d7e58d1"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Kanagawa.json",
+    "source": "~/.config/noctalia/palettes/oma Kanagawa.json",
+    "baseline_sha256": "2f451c5188231404635cb98dbe4864a0881bf8c60b79001c09327368e3b11eef"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Matte Black.json",
+    "source": "~/.config/noctalia/palettes/oma Matte Black.json",
+    "baseline_sha256": "b7579f7581557feec20dedd6f32f3df7641360b73efd302c66ebb0f0818e3d62"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Nord.json",
+    "source": "~/.config/noctalia/palettes/oma Nord.json",
+    "baseline_sha256": "0a348b74049e219278c75965855190050e8314a5c33d453fea66ead1af0fd1e1"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Ristretto.json",
+    "source": "~/.config/noctalia/palettes/oma Ristretto.json",
+    "baseline_sha256": "af78f6f138572800f19ba37040a437e1c326a1c4cfa0822328c6640d6b51774b"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Solarized.json",
+    "source": "~/.config/noctalia/palettes/oma Solarized.json",
+    "baseline_sha256": "88a332bed595ca9d640fbd12c4752460da48c9c730467da25784171b42fb27e5"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Tokyo Night.json",
+    "source": "~/.config/noctalia/palettes/oma Tokyo Night.json",
+    "baseline_sha256": "7ed8c6efb4b2d03191eef9650854bd108e614b140201c0acf4a052ec4c2899d0"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Ethereal.json",
+    "source": "~/.config/noctalia/palettes/oma Ethereal.json",
+    "baseline_sha256": "d93b35624554fc711ac6c4af72c4d0d0a39e4fc15d9db7d2b9c136554b6607fc"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Hackerman.json",
+    "source": "~/.config/noctalia/palettes/oma Hackerman.json",
+    "baseline_sha256": "66d470c4b0f5514a980b3508de34ec009ee34ebc3d7bca08d7d658cd86379bc7"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Last Horizon.json",
+    "source": "~/.config/noctalia/palettes/oma Last Horizon.json",
+    "baseline_sha256": "e9b6c3fc2747d5520d0df6af194689baa19b272b23abffc57ce4d34fa7f9a0c2"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Lumon.json",
+    "source": "~/.config/noctalia/palettes/oma Lumon.json",
+    "baseline_sha256": "c3ad7d026c57068ea2922d44648b9567a4b02a3b7e61acbc003448ebbc31c80c"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Miasma.json",
+    "source": "~/.config/noctalia/palettes/oma Miasma.json",
+    "baseline_sha256": "b7350ae8081f6cbc4903ca7219862f9f1e3af7bd9548f9df03940da4bca5f673"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Osaka Jade.json",
+    "source": "~/.config/noctalia/palettes/oma Osaka Jade.json",
+    "baseline_sha256": "8c220fcf662662216572507466082dd08cf7cecdfd7eb4da883125140821576c"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Retro 82.json",
+    "source": "~/.config/noctalia/palettes/oma Retro 82.json",
+    "baseline_sha256": "5020bbbef82221ba534f39448c510d1283b906f3095dc39bf62abedb1742c4fc"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Solitude.json",
+    "source": "~/.config/noctalia/palettes/oma Solitude.json",
+    "baseline_sha256": "e9be67df16652f34db8da3ea45736c9538c819a370a3d53d4f462533f6ec6ae0"
+  },
+  {
+    "file": "assets/noctalia/palettes/oma Largo.json",
+    "source": "~/.config/noctalia/palettes/oma Largo.json",
+    "baseline_sha256": "a63dd4f648965716de63d5554fa0e4cc5a07bf6d53255b989dc701435d25a7e1"
+  },
+  {
+    "file": "assets/noctalia/templates/application-palette.json",
+    "source": "~/.config/noctalia/templates/application-palette.json",
+    "baseline_sha256": "0aa6d5c874a6f659f4e067ff6f09aaa438a94c8b42f90732865eacbec16b0813"
+  },
+  {
+    "file": "assets/noctalia/templates/roles-gtk3.css",
+    "source": "~/.config/noctalia/templates/roles-gtk3.css",
+    "baseline_sha256": "832e1342c35d204fa94dcef7d028466d7e399881019f34792e9beac00994b307"
+  },
+  {
+    "file": "assets/noctalia/templates/roles-gtk4.css",
+    "source": "~/.config/noctalia/templates/roles-gtk4.css",
+    "baseline_sha256": "3f052827fe43eab534f50e83278b9acbbf130460f9f4d3211f03e25d785b48b4"
+  },
+  {
+    "file": "assets/noctalia/templates/opencode-transparent.json",
+    "source": "~/.config/noctalia/templates/opencode-transparent.json",
+    "baseline_sha256": "87b5c481b65252281a25fa19b47410bccc2cb5238af523dbf9e33b7bb69559e2"
+  },
+  {
+    "file": "assets/noctalia/templates/roles-obsidian.css",
+    "source": "~/.config/noctalia/templates/roles-obsidian.css",
+    "baseline_sha256": "e2d7e70a64406c62a648b944e2f48aea19f2568bcc65fa4d990a65c7185875d8"
+  },
+  {
+    "file": "assets/noctalia/templates/roles-zen-chrome.css",
+    "source": "~/.config/noctalia/templates/roles-zen-chrome.css",
+    "baseline_sha256": "ccb4190b6bff1d33ebcfe5349c334beb3f532f1cfb1556b74c25e67a408b95d4"
+  },
+  {
+    "file": "assets/noctalia/templates/roles-zen-content.css",
+    "source": "~/.config/noctalia/templates/roles-zen-content.css",
+    "baseline_sha256": "604894071e7effa189cccef74a166dc28d79afe7b1278775d0f7300b45d25159"
+  },
+  {
+    "file": "assets/noctalia/templates/zotero-pdf-theme.json",
+    "source": "~/.config/noctalia/templates/zotero-pdf-theme.json",
+    "baseline_sha256": "95513070f249f0d256010afba6e41907454dab73cbc23a4a9b5f76a0c7e5cbdf"
+  },
+  {
+    "file": "assets/noctalia/templates/spotify-ziro.json",
+    "source": "~/.config/noctalia/templates/spotify-ziro.json",
+    "baseline_sha256": "c8f8b618876f589f6a469439591c6165e5f0535a41c998acd0ae4b070f34d218"
+  },
+  {
+    "file": "assets/noctalia/templates/yamis-colour.json",
+    "source": "~/.config/noctalia/templates/yamis-colour.json",
+    "baseline_sha256": "080615328ecd13b562d862f22f7e4f446a242cf77a0f83d2f77458bef8ad33f0"
+  },
+  {
+    "file": "assets/noctalia/templates/libreoffice-colors.xcu",
+    "source": "~/.config/noctalia/templates/libreoffice-colors.xcu",
+    "baseline_sha256": "08c6b4b0c78f2b91ce664e2d9d05689f1e232d0050761ded3952770640a32694"
+  },
+  {
+    "file": "assets/noctalia/templates/roles-fastfetch.jsonc",
+    "source": "~/.config/noctalia/templates/roles-fastfetch.jsonc",
+    "baseline_sha256": "6c312cff0cd63944360e6a1e668f830a59aa5c81bc29826c01a9633fd832df1d"
+  },
+  {
+    "file": "assets/noctalia/application-themes/render.py",
+    "source": "~/.config/noctalia/application-themes/render.py",
+    "baseline_sha256": "5950d2b704dd92881d29d2ece0c7acd0f65ba9c1a715d01080973af61ec618ce"
+  },
+  {
+    "file": "assets/noctalia/application-themes/office-session.py",
+    "source": "~/.config/noctalia/application-themes/office-session.py",
+    "baseline_sha256": "03b2c91b24c8be09206f41624df8ca5e8ba3f1bc1ca0c8dd9af90ce0a5ed514b"
+  },
+  {
+    "file": "assets/noctalia/application-themes/firefox.css.tpl",
+    "source": "~/.config/noctalia/application-themes/firefox.css.tpl",
+    "baseline_sha256": "93c7ff2e77941562d232dcdf722e6739c8e60d1cae7276db349afbee4a1b5ae7"
+  },
+  {
+    "file": "assets/noctalia/application-themes/zotero.css.tpl",
+    "source": "~/.config/noctalia/application-themes/zotero.css.tpl",
+    "baseline_sha256": "315ccc2bd6406ba94bcdbd18f0e0b2feb1b52be4320457fc666b6305a125bace"
+  },
+  {
+    "file": "assets/noctalia/role-adapters/codex.tmTheme",
+    "source": "~/.config/noctalia/role-adapters/codex.tmTheme",
+    "baseline_sha256": "e85c9ffa19b1b498c7d8d4d4501c94289e14c592c651e80ed0f03809b7a962c7"
+  },
+  {
+    "file": "assets/noctalia/role-adapters/fastfetch.py",
+    "source": "~/.config/noctalia/role-adapters/fastfetch.py",
+    "baseline_sha256": "62caea9edaa18ff812b5ffbe62c2ec801bd8ba6cac09ec0d36472e1619ddd8b4"
+  },
+  {
+    "file": "assets/noctalia/role-adapters/obsidian.py",
+    "source": "~/.config/noctalia/role-adapters/obsidian.py",
+    "baseline_sha256": "5dc5b8942c860ec7e1396296434f421d049479dc25cb7ea745f87373b3f97b25"
+  },
+  {
+    "file": "assets/noctalia/codex-appearance/palette.json.tpl",
+    "source": "~/.config/noctalia/codex-appearance/palette.json.tpl",
+    "baseline_sha256": "2bc461623f9852a89ee421150b8090711329c9228c87cf749c0c8011ba0e208f"
+  },
+  {
+    "file": "assets/noctalia/codex-appearance/sync.py",
+    "source": "~/.config/noctalia/codex-appearance/sync.py",
+    "baseline_sha256": "94c57d77e40829e424866cc6464ce05be42bffb88ceffed2eebbe62300ee2565"
+  },
+  {
+    "file": "assets/noctalia/yamis-colour.py",
+    "source": "~/.config/noctalia/yamis-colour.py",
+    "baseline_sha256": "bbdd810b423bf7dd898d4e3dd40d3d7979f61c697cfad95e771950571ad1dfc7"
+  },
+  {
+    "file": "extras/spotify/noctalia-ziro.js",
+    "source": "~/.config/spicetify/Extensions/noctalia-ziro.js",
+    "baseline_sha256": "b6c1433f6b20e13e76f8406ea58f62d603778d855585d311ec75a30d06af383c"
+  },
+  {
+    "file": "assets/community/libreoffice/apply.sh",
+    "source": "~/.local/state/noctalia/community-templates/libreoffice/apply.sh",
+    "baseline_sha256": "8c6efae2a93e50f569b03d9c4228803d8ba3d9ec0c03ede0d867250737b22feb"
+  },
+  {
+    "file": "assets/community/libreoffice/Paths.xcu",
+    "source": "~/.local/state/noctalia/community-templates/libreoffice/Paths.xcu",
+    "baseline_sha256": "51e7ede5fcf8ddd39858b7e05ec855c8224399a3a875c75f9f896064802876f5"
+  },
+  {
+    "file": "assets/community/libreoffice/description.xml",
+    "source": "~/.local/state/noctalia/community-templates/libreoffice/description.xml",
+    "baseline_sha256": "eee6c6f43672069097806d8625cb5d7032e0981e0e3cfc93f2359bd510f0b20e"
+  },
+  {
+    "file": "assets/community/libreoffice/pkg-description.en",
+    "source": "~/.local/state/noctalia/community-templates/libreoffice/pkg-description.en",
+    "baseline_sha256": "ccc6c2645be00f57af6e7a24b3a2921536a7e6b0bee33a7c249bfc2ab237b43a"
+  },
+  {
+    "file": "assets/community/steam/template.toml",
+    "source": "~/.local/state/noctalia/community-templates/steam/template.toml",
+    "baseline_sha256": "8c186de3595c9b2f741dc3ec6493ea038d464132b4448d57790fd46972750dbb"
+  },
+  {
+    "file": "assets/community/steam/steam.css",
+    "source": "~/.local/state/noctalia/community-templates/steam/steam.css",
+    "baseline_sha256": "3277d99cff18ded3a748b1d177f91b9585dd23a755b871d2995188ede3a16937"
+  }
+]

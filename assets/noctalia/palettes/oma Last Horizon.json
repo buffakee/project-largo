@@ -1,0 +1,50 @@
+{
+  "_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/last-horizon",
+  "_notes": "Dark role-contract v1 (2026-10-13). Primary=focus/actions/strong selection; secondary/tertiary=supporting accents; surface/onSurface=body and icons; surfaceVariant=panel; hover/onHover=hover. Red/error, ANSI green/success and ANSI yellow/warning are intentional shared status roles. See ~/Work/theme-role-rebuild-20261013/README.md. No light variant.",
+  "dark": {
+    "mPrimary": "#b59790",
+    "mOnPrimary": "#0c0b0c",
+    "mSecondary": "#a5a0b6",
+    "mOnSecondary": "#0c0b0c",
+    "mTertiary": "#c4d8e2",
+    "mOnTertiary": "#0c0b0c",
+    "mError": "#c38b7b",
+    "mOnError": "#0c0b0c",
+    "mSurface": "#0c0b0c",
+    "mOnSurface": "#fafcfb",
+    "mSurfaceVariant": "#1a191a",
+    "mOnSurfaceVariant": "#abacac",
+    "mOutline": "#5f5f60",
+    "mShadow": "#060606",
+    "mHover": "#262626",
+    "mOnHover": "#fafcfb",
+    "terminal": {
+      "normal": {
+        "black": "#0c0b0c",
+        "red": "#c38b7b",
+        "green": "#a6b98b",
+        "yellow": "#d9b47b",
+        "blue": "#b59790",
+        "magenta": "#c4d8e2",
+        "cyan": "#a5a0b6",
+        "white": "#fafcfb"
+      },
+      "bright": {
+        "black": "#584e51",
+        "red": "#c38b7b",
+        "green": "#b5c59f",
+        "yellow": "#dfc192",
+        "blue": "#b59790",
+        "magenta": "#c4d8e2",
+        "cyan": "#a5a0b6",
+        "white": "#e2dddc"
+      },
+      "background": "#0c0b0c",
+      "foreground": "#fafcfb",
+      "cursor": "#b59790",
+      "cursorText": "#0c0b0c",
+      "selectionBg": "#b59790",
+      "selectionFg": "#0c0b0c"
+    }
+  }
+}

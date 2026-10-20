@@ -1,0 +1,23 @@
+{
+  "background": "{{colors.surface.default.hex}}",
+  "foreground": "{{colors.on_surface.default.hex}}",
+  "accent": "{{colors.primary.default.hex}}",
+  "on_accent": "{{colors.on_primary.default.hex}}",
+  "secondary": "{{colors.secondary.default.hex}}",
+  "tertiary": "{{colors.tertiary.default.hex}}",
+  "selection_background": "{{colors.primary.default.hex}}",
+  "selection_foreground": "{{colors.on_primary.default.hex}}",
+  "soft_selection": "{{colors.primary_container.default.hex}}",
+  "on_soft_selection": "{{colors.on_primary_container.default.hex}}",
+  "hover": "{{colors.hover.default.hex}}",
+  "on_hover": "{{colors.on_hover.default.hex}}",
+  "outline": "{{colors.outline.default.hex}}",
+  "outline_variant": "{{colors.outline_variant.default.hex}}",
+  "shadow": "{{colors.shadow.default.hex}}",
+  "muted": "{{colors.on_surface_variant.default.hex}}",
+  "lighter_background": "{{colors.surface_container.default.hex}}",
+  "dark_background": "{{colors.surface.default.hex}}",
+  "error": "{{colors.error.default.hex}}",
+  "success": "{{colors.terminal_normal_green.default.hex}}",
+  "warning": "{{colors.terminal_normal_yellow.default.hex}}"
+}

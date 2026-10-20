@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Restore Project Largo theme
+Exec="@HOME@/.local/bin/project-largo" restore-gnome
+OnlyShowIn=GNOME;
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Phase=Applications

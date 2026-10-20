@@ -1,0 +1,50 @@
+{
+  "_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/everforest",
+  "_notes": "Dark role-contract v1 (2026-10-13). Primary=focus/actions/strong selection; secondary/tertiary=supporting accents; surface/onSurface=body and icons; surfaceVariant=panel; hover/onHover=hover. Red/error, ANSI green/success and ANSI yellow/warning are intentional shared status roles. See ~/Work/theme-role-rebuild-20261013/README.md. No light variant.",
+  "dark": {
+    "mPrimary": "#7fbbb3",
+    "mOnPrimary": "#2d353b",
+    "mSecondary": "#83c092",
+    "mOnSecondary": "#2d353b",
+    "mTertiary": "#d699b6",
+    "mOnTertiary": "#2d353b",
+    "mError": "#e98f91",
+    "mOnError": "#2d353b",
+    "mSurface": "#2d353b",
+    "mOnSurface": "#d3c6aa",
+    "mSurfaceVariant": "#373e42",
+    "mOnSurfaceVariant": "#b5b0a4",
+    "mOutline": "#7c7d78",
+    "mShadow": "#161a1e",
+    "mHover": "#3f4547",
+    "mOnHover": "#d3c6aa",
+    "terminal": {
+      "normal": {
+        "black": "#2d353b",
+        "red": "#e98f91",
+        "green": "#a7c080",
+        "yellow": "#dbbc7f",
+        "blue": "#7fbbb3",
+        "magenta": "#d699b6",
+        "cyan": "#83c092",
+        "white": "#d3c6aa"
+      },
+      "bright": {
+        "black": "#475258",
+        "red": "#e98f91",
+        "green": "#a7c080",
+        "yellow": "#dbbc7f",
+        "blue": "#7fbbb3",
+        "magenta": "#d699b6",
+        "cyan": "#83c092",
+        "white": "#d3c6aa"
+      },
+      "background": "#2d353b",
+      "foreground": "#d3c6aa",
+      "cursor": "#7fbbb3",
+      "cursorText": "#2d353b",
+      "selectionBg": "#7fbbb3",
+      "selectionFg": "#2d353b"
+    }
+  }
+}

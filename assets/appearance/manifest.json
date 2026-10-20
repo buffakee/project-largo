@@ -1,0 +1,487 @@
+{
+  "cursor": "Bibata-Modern-Ice",
+  "files": {
+    "bibata-v2.0.6-source.tar.gz": {
+      "kind": "source",
+      "sha256": "a3095d6a49c2fef1f97963d3706cfcf19b2f29c0616f423f5a278714b60f2b19",
+      "source": "https://github.com/ful1e5/Bibata_Cursor/tree/v2.0.6"
+    },
+    "icons.tar.xz": {
+      "kind": "icons",
+      "sha256": "fe37ebc613c5db46faacc247666a4c27e478ca903d1dfc0d874d33524576e00d",
+      "source": "Bibata v2.0.6 installed XCursors and YAMIS installed upstream SVG source snapshot; see THIRD_PARTY.md"
+    },
+    "wallpapers/Matte-black-3.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/matte-black",
+      "sha256": "e8d73aa65be29bf9d0bec62f64add450485ca52367701ff683e0f2bd66f0791a",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/catppuccin_2-waves.png": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/catppuccin",
+      "sha256": "563190df9589beb2d5117d40db02c649232ab6bc3c3f2eb6d97a9fb3585a0cfd",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/catppuccin_3-blue-eye.png": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/catppuccin",
+      "sha256": "a95044dde4dee46b50816f130387530dcf23b3bd425eaa929dd321ce63f5f07c",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/ethereal_1-cosmic.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/ethereal",
+      "sha256": "0db02097c8ddd3a8c029d18b18e4594ad28928b2fa64ebde7934997ad77f9bd0",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/everforest_1-tree-tops.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/everforest",
+      "sha256": "0f00a5e2d0f78d5e75c7a2f48101f6dee69179c6d94e9f4ebc6fb7c0f39462bf",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/gruvbox_1-the-backwater.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/gruvbox",
+      "sha256": "13cfc6ae370af984c08a820ff81b56a0febb0fbfe9712a6db128b94d14ecaac6",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/gruvbox_2-flower-basket.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/gruvbox",
+      "sha256": "e6188fc509b3336f1f22e097328c29bde604e76c965092de69a5861fa3587598",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/gruvbox_3-village-square.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/gruvbox",
+      "sha256": "9ac4d52dbef06876a838e9cf9f97813dd86e99d2b977d9d11c5f389be6451cdc",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/gruvbox_4-idyllic-procession.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/gruvbox",
+      "sha256": "be0ae73263a5eb69416fb13547826a60806859aa31bb031053afc73de60a55c5",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/gruvbox_5-leaves.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/gruvbox",
+      "sha256": "cdbd3cd7b34a2c8e7e74818af5101a8531786878b0a3afcb8f6985b27394f66d",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/hackerman_1-synth-scape.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/hackerman",
+      "sha256": "c7d2594935f204e0df1b43dfe7a12389ea1c1d3fd8e57a92a9f08497f27a377e",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/ign_outer_space.png": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/nord",
+      "sha256": "a4935a153109370d82f06d9cf70a2e79082e3282d6219e04173a87f8820e613c",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/kanagawa_1-kanagawa.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/kanagawa",
+      "sha256": "9b817d717688539f0db87603b661992839c3cbb5d4918a02a4efc05c9f88b27d",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/largo_wallpaper_1_desktop.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "Original Project Largo palette inspired by forest greens, cream, teal and pink shells.",
+      "sha256": "e759cbb95a2847306a771c3dc1088c782cb07e84cec0a94b5b5c9535ed4a8dbf",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/last-horizon_1-eyes-wide.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/last-horizon",
+      "sha256": "f0d11e6c6a8f2f2749ac9f67d9bc51e6c7f5885587b0d38a241dc5da807eedcf",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/last-horizon_2-blink.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/last-horizon",
+      "sha256": "9225adfa3205d857d314cbf932c33e51c2dc358d41cf92630efc06cf79bdf5b5",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/last-horizon_3-bokeh.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/last-horizon",
+      "sha256": "4b392e8b56bea0b96cfa5439f36dbaf8ac15ee63f8817c55c0bbbf35b4b77782",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/last-horizon_4-new-horizons.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/last-horizon",
+      "sha256": "6b13ec842e3617d7c9c113612664f56b8ffec5fb76d0613bb1c84914f12feb5f",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/lumon_01-united-in-severance.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/lumon",
+      "sha256": "c172bb5c438baabd6836139bb85e9b011b64c4f0fecc8bc2c3dfc5b864141c55",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/matte-black-1.png": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/matte-black",
+      "sha256": "ce55b81328c126915430409101c098cde33f9ee090d3e96f1646224c1ea0b089",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/matte-black-2.png": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/matte-black",
+      "sha256": "bca39413aee94de40943b2d30b666f85366bb109ed0f272f5149ca8e58e1770a",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/matte-black_0-ship-at-sea.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/matte-black",
+      "sha256": "55fa691adfd3fb8a9102b826a28d8de679938f04879799da499b8ace2fe039ac",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/miasma_01-nature-of-fear.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/miasma",
+      "sha256": "f89242eded77e3e3994680d73dd273945056b50c758cc1e828981f58d20dbce1",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/miasma_02-crowned.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/miasma",
+      "sha256": "39847a832c747bbd5b6b2cf561cf808a6dcee0fb4b468f1f0095ca9900c4b50f",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/nord_0-black-moon.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/nord",
+      "sha256": "6873fbf7d4cbb9a39604094dd8d804eb6d231e63ecf56e5c297aae90358eff81",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/nord_1-city-view.png": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/nord",
+      "sha256": "b1186fa7ee4e9d90087b86934c4de31a867daa4a23c401885181b07ba12fff75",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/nord_2-night-hawks.png": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/nord",
+      "sha256": "61a4bc49c13711121de87f5f7f2407ff8235051cd17f9cded7e20e15b19d5692",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/osaka-jade_1-glowing-city.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/osaka-jade",
+      "sha256": "1a4ed77cdcd943833027e2caf805819773bbadcabe868b58ea2ee67c6016d8a8",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/osaka-jade_2-shaded-entrance.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/osaka-jade",
+      "sha256": "5b1053819b9f62c6b54e81443a40245f426e256cd4831b795ae41fc595c26c52",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/osaka-jade_3-mountain-moon.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/osaka-jade",
+      "sha256": "145adf0ba2ebd42dabaf89f12709a7321674f627668e4e2c33fc8f8a192914c7",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/retro-82_1-in-the-groove.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/retro-82",
+      "sha256": "170dfcacaf888bf7154f471925dbccb3500c23ee7db6545fd62acf52f7016381",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/retro-82_2-dusk-guardian.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/retro-82",
+      "sha256": "d1fa5d4ef5284cc37237c1656a1ff362e29ba38c94f2ab6a0dbf8a3ef3bb753f",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/retro-82_3-glassy-lines.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/retro-82",
+      "sha256": "c484f7be35fd1891b428ce64b1082545d16fe46c84b5f8f01a7a541c5e27ab8f",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/retro-82_4-gateway.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/retro-82",
+      "sha256": "f12eea4dd417abac7387a4d080eea9f9f227b1a6894d63afbdcf780f43a55997",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/retro-82_5-zen-boat.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/retro-82",
+      "sha256": "29e9207f0035264ebe3c42fb03f8a80e7f21319874913ff5d28e5a6d73c95fbc",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/retro-82_6-abstract-pyramids.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/retro-82",
+      "sha256": "5e06e3e417761ff3aa45d5464cc6ce12d3167d86a671292f35424217568175f7",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/retro-82_7-the-journey.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/retro-82",
+      "sha256": "9cbbaa1f5b868bcb9bcb4b511664c93f938bebc78bae7965c8f366da037db6ab",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/retro-82_8-glitter-glass.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/retro-82",
+      "sha256": "4a6f3453b1fdf14b05085b813da43c05cfca066ed1561d0382fe13be3275155f",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/ristretto_0-launch.png": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/ristretto",
+      "sha256": "674dbf0e13583e43fcfcc0029b012fb04636af58c6464c18a13dbeff073254bf",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/ristretto_1-color-curves.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/ristretto",
+      "sha256": "9cbb0937c4413dbffb418742972dd952286205fdc08656578537d0d48e22879d",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/ristretto_2-coffee-beans.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/ristretto",
+      "sha256": "1f691430c72083f547871019c8c3f3632af1962f882ce54a45fcf07eaf2a330a",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/ristretto_3-industrial-moon.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/ristretto",
+      "sha256": "7c769ace17a62fff2f4a8efdac121b21c8c78a8a2b0fb528a766c4e8ff641bdc",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/solitude_1-on-pole.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/solitude",
+      "sha256": "988aa9e2e1d1ec5af1e9fcf69f8571fe1c53c31cd1f8053cafa1def6700505ad",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/solitude_2-wreakage.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/solitude",
+      "sha256": "b10814d6233f5ec9266d4a7cc9345f7844e62bece8d9508b773d1abcb7aedcf3",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/solitude_3-climb.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/solitude",
+      "sha256": "aa7a31ba7f87b6b0a88ff3c9e57241672a71f862251e9ba5659ffa004cda66b7",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/solitude_4-ether.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/solitude",
+      "sha256": "bc267be456b844fa63f2348757238a665f1c362356392ef3c591ed3c2cf5ec3e",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/solitude_5-eyed.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/solitude",
+      "sha256": "eb88ed0233f58f4427ea96879469393751126ac115ed06f2bc1aaa1f9b6f22c6",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/tokyo-night_0-winding-road.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/tokyo-night",
+      "sha256": "37746404ae9a4357442e520c34ea105780232ac3d08a9f289f00156e49f37c4e",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/tokyo-night_1-quattro.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/tokyo-night",
+      "sha256": "ffd65594b6d5e7094fc706d9b7b91e5a94713345d264a7d62302b64589be3c8f",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/tokyo-night_2-swirl-buck.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/tokyo-night",
+      "sha256": "4a4ce5ba6c228771c89439710bfa81005791d3c4f76a62481e4d00939b702e3c",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/tokyo-night_3-sunset-lake.png": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/tokyo-night",
+      "sha256": "06dfb9fce029ec35adb40ea3939296777c2b140d1232b5a1697b15052d575362",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/tokyo-night_4-omakub.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/tokyo-night",
+      "sha256": "c04a61df9928f1c1b078050078648bd9d717326e5cc19fc9de6228989af01f24",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/tokyo-night_5-oma-cityscape.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/tokyo-night",
+      "sha256": "22e1d639722b33fa6f0d3ac2733450b4bae961b481f5665cb16397bc5f714e5c",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    },
+    "wallpapers/tokyo-night_6-oma.jpg": {
+      "kind": "wallpaper",
+      "palette_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/tokyo-night",
+      "sha256": "41b8b6a175bb493e16e11c0829f9366491129520922c5c05e112e0295132bc14",
+      "source": "Existing user-selected theme association; original artist/license not recorded locally."
+    }
+  },
+  "icon_archive": "icons.tar.xz",
+  "icons": "yet-another-monochrome-icon-set",
+  "themes": {
+    "oma Catppuccin": {
+      "default": "wallpapers/catppuccin_2-waves.png",
+      "wallpapers": [
+        "wallpapers/catppuccin_2-waves.png",
+        "wallpapers/catppuccin_3-blue-eye.png"
+      ]
+    },
+    "oma Ethereal": {
+      "default": "wallpapers/ethereal_1-cosmic.jpg",
+      "wallpapers": [
+        "wallpapers/ethereal_1-cosmic.jpg"
+      ]
+    },
+    "oma Everforest": {
+      "default": "wallpapers/everforest_1-tree-tops.jpg",
+      "wallpapers": [
+        "wallpapers/everforest_1-tree-tops.jpg"
+      ]
+    },
+    "oma Gruvbox": {
+      "default": "wallpapers/gruvbox_1-the-backwater.jpg",
+      "wallpapers": [
+        "wallpapers/gruvbox_1-the-backwater.jpg",
+        "wallpapers/gruvbox_2-flower-basket.jpg",
+        "wallpapers/gruvbox_3-village-square.jpg",
+        "wallpapers/gruvbox_4-idyllic-procession.jpg",
+        "wallpapers/gruvbox_5-leaves.jpg"
+      ]
+    },
+    "oma Hackerman": {
+      "default": "wallpapers/hackerman_1-synth-scape.jpg",
+      "wallpapers": [
+        "wallpapers/hackerman_1-synth-scape.jpg"
+      ]
+    },
+    "oma Kanagawa": {
+      "default": "wallpapers/kanagawa_1-kanagawa.jpg",
+      "wallpapers": [
+        "wallpapers/kanagawa_1-kanagawa.jpg"
+      ]
+    },
+    "oma Largo": {
+      "default": "wallpapers/largo_wallpaper_1_desktop.jpg",
+      "wallpapers": [
+        "wallpapers/largo_wallpaper_1_desktop.jpg"
+      ]
+    },
+    "oma Last Horizon": {
+      "default": "wallpapers/last-horizon_1-eyes-wide.jpg",
+      "wallpapers": [
+        "wallpapers/last-horizon_1-eyes-wide.jpg",
+        "wallpapers/last-horizon_2-blink.jpg",
+        "wallpapers/last-horizon_3-bokeh.jpg",
+        "wallpapers/last-horizon_4-new-horizons.jpg"
+      ]
+    },
+    "oma Lumon": {
+      "default": "wallpapers/lumon_01-united-in-severance.jpg",
+      "wallpapers": [
+        "wallpapers/lumon_01-united-in-severance.jpg"
+      ]
+    },
+    "oma Matte Black": {
+      "default": "wallpapers/Matte-black-3.jpg",
+      "wallpapers": [
+        "wallpapers/Matte-black-3.jpg",
+        "wallpapers/matte-black-1.png",
+        "wallpapers/matte-black-2.png",
+        "wallpapers/matte-black_0-ship-at-sea.jpg"
+      ]
+    },
+    "oma Miasma": {
+      "default": "wallpapers/miasma_01-nature-of-fear.jpg",
+      "wallpapers": [
+        "wallpapers/miasma_01-nature-of-fear.jpg",
+        "wallpapers/miasma_02-crowned.jpg"
+      ]
+    },
+    "oma Nord": {
+      "default": "wallpapers/ign_outer_space.png",
+      "wallpapers": [
+        "wallpapers/ign_outer_space.png",
+        "wallpapers/nord_0-black-moon.jpg",
+        "wallpapers/nord_1-city-view.png",
+        "wallpapers/nord_2-night-hawks.png"
+      ]
+    },
+    "oma Osaka Jade": {
+      "default": "wallpapers/osaka-jade_1-glowing-city.jpg",
+      "wallpapers": [
+        "wallpapers/osaka-jade_1-glowing-city.jpg",
+        "wallpapers/osaka-jade_2-shaded-entrance.jpg",
+        "wallpapers/osaka-jade_3-mountain-moon.jpg"
+      ]
+    },
+    "oma Retro 82": {
+      "default": "wallpapers/retro-82_1-in-the-groove.jpg",
+      "wallpapers": [
+        "wallpapers/retro-82_1-in-the-groove.jpg",
+        "wallpapers/retro-82_2-dusk-guardian.jpg",
+        "wallpapers/retro-82_3-glassy-lines.jpg",
+        "wallpapers/retro-82_4-gateway.jpg",
+        "wallpapers/retro-82_5-zen-boat.jpg",
+        "wallpapers/retro-82_6-abstract-pyramids.jpg",
+        "wallpapers/retro-82_7-the-journey.jpg",
+        "wallpapers/retro-82_8-glitter-glass.jpg"
+      ]
+    },
+    "oma Ristretto": {
+      "default": "wallpapers/ristretto_0-launch.png",
+      "wallpapers": [
+        "wallpapers/ristretto_0-launch.png",
+        "wallpapers/ristretto_1-color-curves.jpg",
+        "wallpapers/ristretto_2-coffee-beans.jpg",
+        "wallpapers/ristretto_3-industrial-moon.jpg"
+      ]
+    },
+    "oma Solarized": {
+      "default": null,
+      "wallpapers": []
+    },
+    "oma Solitude": {
+      "default": "wallpapers/solitude_1-on-pole.jpg",
+      "wallpapers": [
+        "wallpapers/solitude_1-on-pole.jpg",
+        "wallpapers/solitude_2-wreakage.jpg",
+        "wallpapers/solitude_3-climb.jpg",
+        "wallpapers/solitude_4-ether.jpg",
+        "wallpapers/solitude_5-eyed.jpg"
+      ]
+    },
+    "oma Tokyo Night": {
+      "default": "wallpapers/tokyo-night_0-winding-road.jpg",
+      "wallpapers": [
+        "wallpapers/tokyo-night_0-winding-road.jpg",
+        "wallpapers/tokyo-night_1-quattro.jpg",
+        "wallpapers/tokyo-night_2-swirl-buck.jpg",
+        "wallpapers/tokyo-night_3-sunset-lake.png",
+        "wallpapers/tokyo-night_4-omakub.jpg",
+        "wallpapers/tokyo-night_5-oma-cityscape.jpg",
+        "wallpapers/tokyo-night_6-oma.jpg"
+      ]
+    }
+  },
+  "version": 1
+}

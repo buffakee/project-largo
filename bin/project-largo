@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+"""Launch the user-local Project Largo installation."""
+from pathlib import Path
+import runpy
+
+runpy.run_path(str(Path.home() / '.config/oma-theme/engine.py'), run_name='__main__')

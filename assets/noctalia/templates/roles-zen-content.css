@@ -1,0 +1,115 @@
+/* Project Largo: browser-owned subdialog and print-control documents only.
+ * No matching HTTP(S), extension, PDF, new-tab, or arbitrary about-page rules.
+ * Keep role values in sync with the native chrome adapter.
+ */
+@-moz-document url-prefix("chrome://browser/content/preferences/dialogs/"),
+  url("chrome://browser/content/sanitize_v2.xhtml"),
+  url("chrome://browser/content/places/bookmarkProperties.xhtml"),
+  url("chrome://browser/content/places/clearDataForSite.xhtml"),
+  url("chrome://global/content/commonDialog.xhtml"),
+  url("chrome://global/content/selectDialog.xhtml"),
+  url("chrome://global/content/print.html") {
+  :root {
+    --largo-ui-surface: {{colors.surface.default.hex}};
+    --largo-ui-text: {{colors.on_surface.default.hex}};
+    --largo-ui-button: {{colors.surface_variant.default.hex}};
+    --largo-ui-hover: {{colors.hover.default.hex}};
+    --largo-ui-on-hover: {{colors.on_hover.default.hex}};
+    --largo-ui-primary: {{colors.primary.default.hex}};
+    --largo-ui-on-primary: {{colors.on_primary.default.hex}};
+    --largo-ui-outline: {{colors.outline.default.hex}};
+    --largo-ui-error: {{colors.error.default.hex}};
+    --largo-ui-on-error: {{colors.on_error.default.hex}};
+    --background-color-canvas: var(--largo-ui-surface) !important;
+    --background-color-box: var(--largo-ui-button) !important;
+    --background-color-box-info: var(--largo-ui-button) !important;
+    --background-color-list-item-hover: var(--largo-ui-hover) !important;
+    --text-color: var(--largo-ui-text) !important;
+    --text-color-deemphasized: {{colors.on_surface_variant.default.hex}} !important;
+    --text-color-list-item-hover: var(--largo-ui-on-hover) !important;
+    --text-color-accent-primary-selected: var(--largo-ui-on-primary) !important;
+    --color-accent-primary: var(--largo-ui-primary) !important;
+    --color-accent-primary-hover: var(--largo-ui-primary) !important;
+    --color-accent-primary-active: var(--largo-ui-primary) !important;
+    --color-accent-primary-selected: var(--largo-ui-primary) !important;
+    --focus-outline-color: var(--largo-ui-primary) !important;
+    --border-color: var(--largo-ui-outline) !important;
+    --border-color-deemphasized: var(--largo-ui-outline) !important;
+    --border-color-interactive: var(--largo-ui-outline) !important;
+    --border-color-interactive-hover: var(--largo-ui-primary) !important;
+    --button-background-color: var(--largo-ui-button) !important;
+    --button-background-color-hover: var(--largo-ui-hover) !important;
+    --button-background-color-active: var(--largo-ui-hover) !important;
+    --button-text-color: var(--largo-ui-text) !important;
+    --button-text-color-hover: var(--largo-ui-on-hover) !important;
+    --button-text-color-active: var(--largo-ui-on-hover) !important;
+    --button-background-color-primary: var(--largo-ui-primary) !important;
+    --button-background-color-primary-hover: var(--largo-ui-primary) !important;
+    --button-background-color-primary-active: var(--largo-ui-primary) !important;
+    --button-text-color-primary: var(--largo-ui-on-primary) !important;
+    --button-text-color-primary-hover: var(--largo-ui-on-primary) !important;
+    --button-text-color-primary-active: var(--largo-ui-on-primary) !important;
+    --button-background-color-destructive: var(--largo-ui-error) !important;
+    --button-background-color-destructive-hover: var(--largo-ui-error) !important;
+    --button-background-color-destructive-active: var(--largo-ui-error) !important;
+    --button-text-color-destructive: var(--largo-ui-on-error) !important;
+    --button-text-color-destructive-hover: var(--largo-ui-on-error) !important;
+    --button-text-color-destructive-active: var(--largo-ui-on-error) !important;
+    --input-text-background-color: var(--largo-ui-button) !important;
+    --input-text-color: var(--largo-ui-text) !important;
+    --input-text-border-color: var(--largo-ui-outline) !important;
+    --input-border-color: var(--largo-ui-outline) !important;
+    --link-color: {{colors.secondary.default.hex}} !important;
+    --link-color-hover: var(--largo-ui-primary) !important;
+    --link-color-active: var(--largo-ui-primary) !important;
+    --zen-primary-color: var(--largo-ui-primary) !important;
+    --zen-accent-button-background: var(--largo-ui-primary) !important;
+  }
+
+  :root, body {
+    background-color: var(--largo-ui-surface) !important;
+    color: var(--largo-ui-text) !important;
+    color-scheme: dark !important;
+    accent-color: var(--largo-ui-primary) !important;
+  }
+
+  button[dlgtype] {
+    --button-background-color: var(--largo-ui-button) !important;
+    --button-background-color-hover: var(--largo-ui-hover) !important;
+    --button-background-color-active: var(--largo-ui-hover) !important;
+    --button-text-color: var(--largo-ui-text) !important;
+    --button-text-color-hover: var(--largo-ui-on-hover) !important;
+    --button-text-color-active: var(--largo-ui-on-hover) !important;
+    --button-background-color-primary: var(--largo-ui-primary) !important;
+    --button-background-color-primary-hover: var(--largo-ui-primary) !important;
+    --button-background-color-primary-active: var(--largo-ui-primary) !important;
+    --button-text-color-primary: var(--largo-ui-on-primary) !important;
+    --button-text-color-primary-hover: var(--largo-ui-on-primary) !important;
+    --button-text-color-primary-active: var(--largo-ui-on-primary) !important;
+  }
+
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]),
+  textarea, menulist, select, richlistbox, tree {
+    background-color: var(--largo-ui-button) !important;
+    color: var(--largo-ui-text) !important;
+    border-color: var(--largo-ui-outline) !important;
+  }
+
+  richlistitem[selected], option:checked {
+    background-color: var(--largo-ui-primary) !important;
+    color: var(--largo-ui-on-primary) !important;
+  }
+
+  treechildren::-moz-tree-row(selected) {
+    background-color: var(--largo-ui-primary) !important;
+  }
+
+  treechildren::-moz-tree-cell-text(selected) {
+    color: var(--largo-ui-on-primary) !important;
+  }
+
+  ::selection {
+    background-color: var(--largo-ui-primary) !important;
+    color: var(--largo-ui-on-primary) !important;
+  }
+}

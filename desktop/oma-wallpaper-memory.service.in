@@ -1,0 +1,13 @@
+[Unit]
+Description=Project Largo per-theme GNOME wallpaper memory
+PartOf=gnome-session.target
+After=gnome-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 "@HOME@/.config/oma-theme/wallpaper.py" watch
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=gnome-session.target

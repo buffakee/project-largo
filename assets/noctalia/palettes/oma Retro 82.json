@@ -1,0 +1,50 @@
+{
+  "_source": "https://github.com/omacom/omarchy/tree/1a161eb5192ac555b99458c52f5fa80344cb3556/themes/retro-82",
+  "_notes": "Dark role-contract v1 (2026-10-13). Primary=focus/actions/strong selection; secondary/tertiary=supporting accents; surface/onSurface=body and icons; surfaceVariant=panel; hover/onHover=hover. Red/error, ANSI green/success and ANSI yellow/warning are intentional shared status roles. See ~/Work/theme-role-rebuild-20261013/README.md. No light variant.",
+  "dark": {
+    "mPrimary": "#faa968",
+    "mOnPrimary": "#05182e",
+    "mSecondary": "#8cbfb8",
+    "mOnSecondary": "#05182e",
+    "mTertiary": "#4b9691",
+    "mOnTertiary": "#05182e",
+    "mError": "#f85525",
+    "mOnError": "#05182e",
+    "mSurface": "#05182e",
+    "mOnSurface": "#f6dcac",
+    "mSurfaceVariant": "#132436",
+    "mOnSurfaceVariant": "#a69b82",
+    "mOutline": "#616562",
+    "mShadow": "#020c17",
+    "mHover": "#202e3c",
+    "mOnHover": "#f6dcac",
+    "terminal": {
+      "normal": {
+        "black": "#05182e",
+        "red": "#f85525",
+        "green": "#a6b98b",
+        "yellow": "#d9b47b",
+        "blue": "#3f8f8a",
+        "magenta": "#3f8f8a",
+        "cyan": "#8cbfb8",
+        "white": "#f6dcac"
+      },
+      "bright": {
+        "black": "#2a6b78",
+        "red": "#f85525",
+        "green": "#b4bf91",
+        "yellow": "#debb84",
+        "blue": "#faa968",
+        "magenta": "#3f8f8a",
+        "cyan": "#8cbfb8",
+        "white": "#f6dcac"
+      },
+      "background": "#05182e",
+      "foreground": "#f6dcac",
+      "cursor": "#faa968",
+      "cursorText": "#05182e",
+      "selectionBg": "#faa968",
+      "selectionFg": "#05182e"
+    }
+  }
+}
