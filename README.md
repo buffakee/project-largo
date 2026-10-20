@@ -6,7 +6,7 @@ Project Largo is a native & unified theming engine for the Gnome Desktop.
 
 Packaged with **18 dark palettes**, stock **GNOME Light/Dark** presets, coordinated icons and wallpapers, and a **Set up / Refresh integrations** button for supported applications.
 
-![Project Largo on GNOME](assets/project-largo-desktop.png)
+[![GNOME Activities overview with the Largo palette, matching wallpaper and cream-colored YAMIS icons](assets/screenshots/largo-gnome-overview.png)](assets/screenshots/largo-gnome-overview.png)
 
 **Version:** `0.1.0-alpha.1` · **Target:** Fedora 44 / GNOME Shell 50 ·
 **Distribution:** private Alpha source build
@@ -23,6 +23,30 @@ Packaged with **18 dark palettes**, stock **GNOME Light/Dark** presets, coordina
    — stock appearance, previous palette and backed-up settings.
 
 Repository access is required while this Alpha is private.
+
+## Largo in action
+
+One palette, across the desktop and the apps you use. These screenshots show the **Largo** preset on the original Fedora/GNOME setup: forest-green surfaces, warm cream text and sage accents, paired with its wallpaper and palette-colored icons.
+
+Click any screenshot to view it at full size.
+
+| Project Largo · native palette picker | Files · GTK surfaces and YAMIS icons |
+| --- | --- |
+| [![Project Largo's native theme picker with color swatches and the Largo preset selected](assets/screenshots/largo-theme-picker.png)](assets/screenshots/largo-theme-picker.png) | [![GNOME Files with forest-green surfaces and cream-colored folder icons](assets/screenshots/largo-files.png)](assets/screenshots/largo-files.png) |
+
+| Zen · browser chrome and new-tab popup | LibreOffice Writer · tools and document colors |
+| --- | --- |
+| [![Zen browser with the Largo workspace gradient and themed new-tab address popup](assets/screenshots/largo-zen.png)](assets/screenshots/largo-zen.png) | [![LibreOffice Writer with coordinated toolbars, sidebar and a dark document page](assets/screenshots/largo-libreoffice-writer.png)](assets/screenshots/largo-libreoffice-writer.png) |
+
+| Obsidian · notes, accents and graph | Spotify · Marketplace/Ziro integration |
+| --- | --- |
+| [![Obsidian with Largo-colored editor surfaces, headings, inline code and graph view](assets/screenshots/largo-obsidian.png)](assets/screenshots/largo-obsidian.png) | [![Spotify's Marketplace/Ziro interface using Largo backgrounds, text and playback controls](assets/screenshots/largo-spotify.png)](assets/screenshots/largo-spotify.png) |
+
+| Codex · coordinated developer tools | Terminal · Ptyxis and Fastfetch |
+| --- | --- |
+| [![Codex desktop with forest-green chat surfaces and warm cream text](assets/screenshots/largo-codex.png)](assets/screenshots/largo-codex.png) | [![Ptyxis terminal displaying Fastfetch and Largo's terminal color swatches](assets/screenshots/largo-terminal.png)](assets/screenshots/largo-terminal.png) |
+
+The gallery shows the configured original desktop; see [Maintained integration setup](#maintained-integration-setup) and the [advanced integration reference](REFERENCE.md) for application setup requirements.
 
 ## What you get
 
