@@ -1,10 +1,10 @@
 # Project Largo · Alpha 1
 
-**One palette for GNOME and the applications you use.**
+**One stop to make Gnome truly yours.**
 
-Project Largo is a native GTK4/libadwaita theme picker with **18 dark palettes**,
-stock **GNOME Light/Dark** presets, coordinated icons and wallpapers, and a
-**Set up / Refresh integrations** button for supported applications.
+Project Largo is a native & unified theming engine for the Gnome Desktop.
+
+Packaged with **18 dark palettes**, stock **GNOME Light/Dark** presets, coordinated icons and wallpapers, and a **Set up / Refresh integrations** button for supported applications.
 
 ![Project Largo on GNOME](assets/project-largo-desktop.png)
 
