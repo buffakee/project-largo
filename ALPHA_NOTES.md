@@ -20,6 +20,8 @@ installation, app enrollment, diagnostics and recovery documentation.
   Obsidian vault enrollment and native Zotero UI/PDF bridge setup.
 - Optional, separately authenticated GDM setup/restoration for GNOME 50.
 - Noctalia-backed Largo renderer interface and independent integration state.
+- Source-kit verification with isolated test homes; the appearance test fixture
+  uses bundled palettes instead of relying on an existing local installation.
 
 Runtime code and assets are byte-preserved from the current build. The source
 snapshot is recorded in `UPSTREAM_SNAPSHOT.json`, including the earlier published

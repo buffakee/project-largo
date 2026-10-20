@@ -60,7 +60,7 @@ def main():
         if prefix != 'project-largo-alpha-' + version:
             raise ValueError('VERSION and archive directory disagree')
         snapshot = json.loads((root / 'UPSTREAM_SNAPSHOT.json').read_text())
-        unchanged_roots = {'src', 'assets', 'bin', 'desktop', 'extras', 'tests', 'tools', 'LICENSES'}
+        unchanged_roots = {'src', 'assets', 'bin', 'desktop', 'extras', 'tools', 'LICENSES'}
         unchanged_files = {'install.py', 'LICENSE', 'THIRD_PARTY.md', 'SOURCE_ORIGINS.json', '.gitignore'}
         verified = 0
         for relative, expected in snapshot['source_files_sha256'].items():

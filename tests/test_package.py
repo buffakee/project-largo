@@ -152,6 +152,7 @@ from pathlib import Path
 from unittest.mock import Mock
 from gi.repository import Gio
 import engine
+engine.NOCTALIA = engine.ROOT.parent / 'assets/noctalia'
 with tempfile.TemporaryDirectory() as directory:
     engine.HOME = Path(directory)
     engine.STATE = engine.HOME / '.local/state/oma-theme'

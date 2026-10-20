@@ -4,6 +4,7 @@
 
 - Start a separate new-user-focused Alpha repository from the current first-run build, retaining runtime code and assets.
 - Add a first-install guide, recovery guide, versioned source kit and Alpha verification notes.
+- Correct an appearance test fixture to use bundled palettes, allowing the full extracted-source suite to run without an existing Largo installation.
 
 - Add GTK **Set up / Refresh integrations** and matching setup/status/repair/recovery commands with per-profile outcomes and isolated verification.
 - Discover installed native/Flatpak apps and registered profiles again on each run; skip missing apps and continue after individual failures.
